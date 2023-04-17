@@ -1,0 +1,55 @@
+Q-1 What is the internet? Explain in your own words.
+Ans- Here is an explanation of the internet in points:
+     1)  The internet is a vast network of computers and servers that are connected together globally.
+     2)  It enables people to share information, communicate with others, and access a variety of online services and applications.
+     3)  The internet uses a protocol called TCP/IP to transmit data packets across the network.
+     4)  To connect to the internet, you need a device like a computer, smartphone, or tablet, and an internet connection from an internet service provider (ISP).
+     5)  The most common way to access the internet is through a web browser like Google Chrome or Mozilla Firefox, which allows you to browse web pages, download files, and access online services like email and social media.
+     6)  The internet is also used for online shopping, online banking, e-learning, and many other activities that have become an integral part of our daily lives.
+     7)  The internet has enabled the creation of many new industries and businesses, such as e-commerce, social media, and online gaming.
+     8)  The internet has revolutionized the way we access information and connect with others, and its impact on society is still evolving.
+     
+Q-2 What is a web browser? Explain in your own words.
+Ans-Here is an explanation of a web browser in points:
+    1)  A web browser is a software application that allows you to access and view websites on the internet.
+    2)  It works by sending requests to web servers and receiving responses that contain web pages and other online content.
+    3)  The most popular web browsers include Google Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge.
+    4)  A web browser allows you to navigate the internet, search for information, and access a variety of online services and applications.
+    5)  It provides a user-friendly interface that allows you to view and interact with web pages, including text, images, videos, and interactive content.
+    6)  A web browser typically includes features such as bookmarks, history, and tabs, which make it easier to organize and access your browsing activity.
+    7)  A web browser plays an important role in online security, as it can help protect your device and personal information from malicious websites and online threats.
+    Overall, a web browser is an essential tool for accessing and navigating the internet, and it continues to evolve and improve with new features and updates.
+    
+Q-3 What is a browser engine? Explain in your own words.
+Ans-Here is an explanation of a browser engine in points:
+    1)  A browser engine is a software component that powers web browsers and helps them display web pages on your screen.
+    2)  It works by interpreting the code of a web page and rendering it into a visible format that you can interact with.
+    3)  Browser engines are responsible for handling different web technologies, such as HTML, CSS, and JavaScript, and ensuring that web pages are displayed correctly.
+    4)  The most common browser engines include Blink, which powers Google Chrome and Microsoft Edge, and Gecko, which powers Mozilla Firefox.
+    5)  Other browser engines include WebKit, which powers Apple Safari and other browsers, and Trident, which was used by older versions of Internet Explorer.
+    6)  Browser engines are typically open-source, which means that developers can modify and improve them to make them faster and more efficient.
+    7)  The speed and efficiency of a browser engine can have a significant impact on your browsing experience, as faster engines can load web pages more quickly and handle more complex content.
+    Overall, a browser engine is a critical component of a web browser that helps to power the internet and ensure that web pages are displayed accurately and efficiently.
+    
+Q-4 What is a static site? Explain in your own words.
+Ans-Here iss an explanation of a static site in points:
+    1)  A static site is a website that is composed of HTML, CSS, and other files that are stored on a web server and sent to your web browser when you request them.
+    2)  Unlike dynamic sites, which generate content on the fly using server-side scripting languages and databases, static sites are pre-built and don't require any server-side processing.
+    3)  This means that static sites are faster and more lightweight than dynamic sites, as they don't require as much processing power or database access.
+    4)  Static sites are also more secure than dynamic sites, as they don't allow for the execution of server-side code that could be vulnerable to attacks.
+    5)  Examples of static sites include blogs, portfolios, and company websites that don't require frequent updates or user interactions.
+    6)  Static sites are typically hosted on a web server or a content delivery network (CDN) and can be deployed using tools like Git or FTP.
+    7)  Because static sites don't require server-side processing, they are often cheaper and easier to host than dynamic sites, which can require more resources and maintenance.
+    Overall, a static site is a simple and efficient way to create a website that doesn't require complex server-side processing or database access, making them a popular choice for small to medium-sized websites.
+    
+Q-5 What is a dynamic site? Explain in your own words.
+Ans-Here is an explanation of a dynamic site in points:
+    1)  A dynamic site is a website that generates content on the fly, using server-side scripting languages and databases to create web pages that can change based on user input or other factors.
+    2)  Unlike static sites, which are pre-built and don't require any server-side processing, dynamic sites use server-side code to generate content and respond to user actions.
+    3)  Examples of dynamic sites include social networks, e-commerce sites, and web applications that require real-time data and user interactions.
+    4)  Dynamic sites are often built using server-side scripting languages like PHP, Python, or Ruby, which allow developers to generate content based on user input, database queries, or other factors.
+    5)  Dynamic sites also typically use databases like MySQL or PostgreSQL to store and retrieve data, allowing for more complex interactions and functionality.
+    6)  Dynamic sites can be more complex and resource-intensive than static sites, requiring more powerful servers and more maintenance and updates.
+    7)  Because dynamic sites generate content on the fly, they can be more personalized and responsive to user actions, making them ideal for sites that require real-time updates or complex interactions.
+    8)  Dynamic sites are also more vulnerable to security threats and require more careful maintenance and updates to ensure that they remain secure.
+    Overall, a dynamic site is a powerful and flexible way to create a website that can respond to user input and provide complex functionality, but requires more resources and maintenance than a simple static site.
