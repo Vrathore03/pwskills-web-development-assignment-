@@ -1,0 +1,44 @@
+Q-1 What is HTML?
+Ans- Here are some key points about HTML:
+       1)  HTML stands for Hypertext Markup Language.
+       2) It is a markup language used to create and structure content for web pages.
+       3) HTML uses a series of tags and attributes to define the structure and layout of a web document.
+       4) It is used in conjunction with other web development technologies such as CSS and JavaScript.
+       5) HTML is the standard language used to create web pages and is read and rendered by web browsers.
+       6) HTML tags can be used to define headings, paragraphs, links, images, forms, tables, and other elements of a web page.
+       7) HTML5 is the latest version of HTML and includes new features such as support for multimedia content and improved accessibility.
+     
+Q-2 What is CSS?
+Ans- Here are some key points about CSS:
+       1) CSS stands for Cascading Style Sheets.
+       2) CSS is a language used to describe how a web page should look.
+       3) It controls the layout, colors, fonts, and other visual aspects of a web page.
+       4) It works together with HTML to create the visual design of a website.
+       5) CSS uses rules to define the style of HTML elements such as headings, paragraphs, links, images, and other elements.
+       6) CSS allows web developers to apply the same visual style to multiple elements on a web page.
+       7) CSS can target elements based on their tag name, class, ID, or other attributes.
+       8) The latest version of CSS, CSS3, includes new features such as animations, flexible layout options, and improved browser compatibility.
+       
+Q-3 Why did JavaScript come into the picture?
+Ans- Here are some key points about why JavaScript came into the picture:
+       1) Prior to the emergence of JavaScript, web pages were mostly static documents that displayed information without any user interaction.
+       2) JavaScript was introduced to add interactivity and dynamic functionality to web pages.
+       3) JavaScript is a scripting language that runs on the client-side, meaning that it is executed by the user's web browser rather than a server.
+       4) JavaScript allows web developers to create interactive elements like pop-ups, drop-down menus, image sliders, and more.
+       5) JavaScript can respond to user actions, such as mouse clicks and keystrokes, to create dynamic and interactive web pages.
+       6) JavaScript has continued to evolve and expand its capabilities, allowing web developers to create more complex and sophisticated applications.
+       7) Today, JavaScript is used to build everything from simple website animations to complex web applications and even mobile and desktop applications.
+       
+Q-4 History of JavaScript and EcmaScript. Explain in your own words.
+Ans- Here are some key points about the history of JavaScript and ECMAScript:
+       1) JavaScript was created by Brendan Eich in 1995 while he was working at Netscape Communications Corporation. The original name for JavaScript was Mocha, then 
+          it was renamed to LiveScript, and finally to JavaScript to capitalize on the popularity of Java at the time.
+       2) JavaScript was created to add interactivity and dynamic functionality to web pages.
+       3) In 1996, Netscape submitted JavaScript to the European Computer Manufacturers Association (ECMA) to standardize the language. The standardization process 
+          resulted in ECMAScript, which is the official name that defines how JavaScript should work.
+       4) ECMAScript 1 was released in 1997, followed by ECMAScript 2 in 1998 and ECMAScript 3 in 1999.
+       5) ECMAScript 4 was abandoned in 2008, and its features were eventually added to later versions of ECMAScript.
+       6) ECMAScript 5 was released in 2009, and ECMAScript 6 (ES6) was released in 2015, introducing major new features.
+       7) New versions of ECMAScript have been released every year since then, with the latest being ECMAScript 2022.
+    In summary, JavaScript was created to add interactivity and dynamic functionality to web pages, and ECMAScript is the official name for the language specification
+    that defines how JavaScript should work. ECMAScript has gone through several versions, each adding new features and improvements to the language.
