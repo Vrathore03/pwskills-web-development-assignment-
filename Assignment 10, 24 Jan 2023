@@ -1,12 +1,12 @@
 Q-1 What is CSS and why use it?
-Ans-   1) CSS stands for Cascading Style Sheets and is a language used in web development.
-       2) CSS is used to style and format web pages, allowing developers to separate the visual design of a page from its content.
-       3) CSS provides a way to define how HTML elements should be displayed, such as font size, color, spacing, and layout.
-       4) CSS is used to ensure consistency in design across a website.
-       5) CSS can improve website performance and load times.
-       6) CSS can make a website more accessible to people with disabilities.
-       7) CSS can be used to create responsive web designs that adjust to different screen sizes and devices.
-       8) Overall, CSS makes web development more efficient and effective.
+Ans-    1) CSS stands for Cascading Style Sheets and is a language used in web development.
+        2) CSS is used to style and format web pages, allowing developers to separate the visual design of a page from its content.
+        3) CSS provides a way to define how HTML elements should be displayed, such as font size, color, spacing, and layout.
+        4) CSS is used to ensure consistency in design across a website.
+        5) CSS can improve website performance and load times.
+        6) CSS can make a website more accessible to people with disabilities.
+        7) CSS can be used to create responsive web designs that adjust to different screen sizes and devices.
+        8) Overall, CSS makes web development more efficient and effective.
        
 Q-2 What are the different ways to bring CSS into HTML file?
 Ans- Here are the different ways to bring CSS into an HTML file:
