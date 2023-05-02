@@ -1,0 +1,79 @@
+Q-1 What are inline and block elements in HTML and the difference between them? Name a few inline elements and block elements.
+Ans- Block elements: Block elements are those HTML elements that take up the full width available to them and create a line break after the element. Examples of 
+                     block-level elements include headings (h1, h2, etc.), paragraphs (p), divs, lists (ul, ol), and sections (section, article, nav, aside, etc.). Block 
+                     elements are often used to structure and layout web pages.
+
+Inline elements: Inline elements are those HTML elements that occupy only the necessary space to display their content and do not create a line break after the element. 
+                 Examples of inline elements include links (a), images (img), span, strong, em, and input. Inline elements are often used to add additional formatting 
+                 and styles to text within block-level elements.
+                 
+Here are some key differences between inline and block elements in HTML:
+   1) Block elements take up the full width available to them, while inline elements only take up the necessary space to display their content.
+   2) Block elements create a line break before and after the element, while inline elements do not create a line break after the element.
+   3) Block elements are often used to structure and layout web pages, while inline elements are often used to add additional formatting and styles to text within 
+      block-level elements.
+   4) Block elements are typically used to create large sections of content on a web page, while inline elements are used to add small, specific formatting effects to 
+      content.
+      
+Q-2 How to work with images in HTML and explain in detail <img/> tag important attributes.
+Ans- Working with images in HTML involves the '<img>' tag to display images on a web page. Here's the way of how to do it:
+
+       1) Find or create an image: First, you need to find or create an image that you want to display on your web page.
+       2) Upload the image: Next, you need to upload the image file to your website's server so that it can be accessed by your web page.
+       3) Insert the image using the <img> tag: To display the image on your web page, you need to use the '<img>' tag. Here's an example:
+
+     <img src="path/to/image.jpg" alt="Description of the image">
+
+   The '<img>' tag has some important attributes that you can use to control how the image is displayed on your web page:
+
+       1) 'src': This specifies the path to the image file.
+       2) 'alt': This provides a text description of the image for people who cannot see it.
+       3) 'width' and 'height': These control the size of the image.
+       4) 'title': This provides additional information about the image when the user hovers over it with their mouse.
+       5) 'class' and 'id': These allow you to add CSS styling to the image.
+ By using these attributes, you can control how your image is displayed on your web page and provide additional information about the image for users who cannot see it.
+ 
+Q-3 How to create lists in HTML?
+Ans- In HTML, you can create three types of lists: ordered lists, unordered lists, and definition lists. Here's how to create each of them:
+
+        1) Ordered Lists: Ordered lists are used when you want to display a numbered list of items. To create an ordered list, use the <ol> tag and add each list item 
+                          with the <li> tag. Here's an example:
+                                                                    <ol>
+                                                                        <li>First item</li>
+                                                                        <li>Second item</li>
+                                                                        <li>Third item</li>
+                                                                   </ol>
+       2) Unordered Lists: Unordered lists are used when you want to display a bulleted list of items. To create an unordered list, use the <ul> tag and add each list 
+                           item with the <li> tag. Here's an example:
+                                                                    <ul>
+                                                                        <li>First item</li>
+                                                                        <li>Second item</li>
+                                                                        <li>Third item</li>
+                                                                   </ul>
+       3) Definition Lists: Definition lists are used when you want to display a list of terms and their definitions. To create a definition list, use the <dl> tag 
+                            and add each term with the <dt> tag and its corresponding definition with the <dd> tag. Here's an example:
+                                                                   <dl>
+                                                                        <dt>Term 1</dt>
+                                                                        <dd>Definition 1</dd>
+                                                                        <dt>Term 2</dt>
+                                                                        <dd>Definition 2</dd>
+                                                                        <dt>Term 3</dt>
+                                                                        <dd>Definition 3</dd>
+                                                                   </dl>
+        By using these tags, you can create lists of items on your web page in an organized and structured manner.
+        
+Q-4 How to interlink web pages and navigate people to other websites?
+Ans- To interlink web pages and navigate people to other websites, follow these below points:
+
+       1) Interlinking web pages within your website:
+               Use descriptive and easy-to-understand text for your internal links.
+               Link to relevant pages that provide additional information or are related to the content.
+               Use a clear and organized navigation menu to help users find and navigate between pages easily.
+               Use contextual links within your content to provide additional resources or information to your readers.
+               Include related posts or articles sections to suggest additional relevant content to users.
+               
+       2) Navigating people to other websites:
+               Use descriptive and accurate anchor text for your external links.
+               Link to high-quality and trustworthy external websites that provide additional value to your readers.
+               Open external links in a new tab so readers can easily return to your website.
+               Use social media icons or share buttons to encourage readers to share your content on their own networks.
