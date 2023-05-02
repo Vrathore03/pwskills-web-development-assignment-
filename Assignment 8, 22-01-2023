@@ -1,0 +1,108 @@
+Q-1 Explain the Table and its properties.
+Ans- Following are the points to explain the table in HTML and its properties:
+
+     1) Table in HTML:
+               The term 'Table' is way to organize data into rows and columns.
+               The table is created using the '<table>' tag.
+               It consists of rows and cells.
+               In table, Rows are created using the '<tr>' tag.
+               Cells are created using the '<th>' (header cell) or '<td>' (data cell) tag.
+               
+     2) Properties of HTML Table:
+
+               Border: specifies the width of the border around the table and its cells.
+               Cellpadding: specifies the space between the cell content and the cell border.
+               Cellspacing: specifies the space between cells in a table.
+               Width: specifies the width of the table.
+               Height: specifies the height of the table.
+               Align: specifies the alignment of the table within its container.
+               Bgcolor: specifies the background color of the table and its cells.
+               Colspan: specifies the number of columns that a table cell should span.
+               Rowspan: specifies the number of rows that a table cell should span
+      These properties can be set using HTML attributes or CSS.
+      
+Q-2 Explain all Media elements and how they work.
+Ans- Following are the media elements in HTML:
+
+        1) '<img>': This media element is used to embed images into a web page.
+                  It requires a "src" attribute that specifies the image file location.
+                  Additional attributes can be used to specify the image dimensions, alt text, and more.
+                  Example: '<img src="image.jpg" alt="A beautiful landscape" width="500" height="300">'
+                  
+        2) '<audio>': This media element is used to embed audio files into a web page.
+                    It requires a "src" attribute that specifies the audio file location.
+                    Additional attributes can be used to specify the audio controls, autoplay, loop, and more.
+                    Example: '<audio src="audio.mp3" controls autoplay></audio>'
+                    
+        3) '<video>': This media element is used to embed video files into a web page.
+                    It requires a "src" attribute that specifies the video file location.
+                    Additional attributes can be used to specify the video dimensions, controls, autoplay, loop, and more.
+                    Example: '<video src="video.mp4" width="640" height="360" controls autoplay></video>'
+                    
+Q-3 What is Get and Post in Form?
+Ans- Here's a explanation of the 'GET' and 'POST' methods in HTML forms:
+
+      1) 'GET' Method:
+                  Sends form data through the URL in the web address bar.
+                  Used for simple requests, like searching or visiting a new page.
+                  Data is visible in the URL, making it easy to share.
+                  Can only send a limited amount of data (usually up to 2048 characters).
+                  Not secure for sending sensitive information, like passwords.
+                  
+      2) 'POST' Method:
+
+                  Sends form data through the server request body
+                  Used for complex requests, like submitting a form with a lot of data or updating data on a server
+                  Data is not visible in the URL, making it harder to share
+                  Can send a large amount of data
+                  More secure for sending sensitive information than the 'GET' method
+      In HTML, you can specify the method used to submit form data by setting the "method" attribute on the '<form>' element, like this:
+
+         <form method="get" action="/search">                                                            <form method="post" action="/signup">
+           <!-- form fields -->                                                                            <!-- form fields -->
+           <button type="submit">Search</button>                                                           <button type="submit">Sign up</button>
+         </form>                                                                                         </form>
+         
+Q-4 List all the input types we have in forms.
+Ans- Here is a list of all the input types available in HTML forms:
+
+      1) text: Creates a single-line input for text, such as name or address.
+               Example: <input type="text" name="username" placeholder="Enter username">
+
+      2) password: Creates a single-line input for passwords, where the entered characters are hidden.
+                   Example: <input type="password" name="password" placeholder="Enter password">
+
+      3) email: Creates a single-line input for email addresses, with built-in validation to ensure that the entered text is a valid email address.
+                Example: <input type="email" name="email" placeholder="Enter email address">
+
+      4) number: Creates a single-line input for numerical values, with built-in validation to ensure that the entered text is a valid number.
+                 Example: <input type="number" name="quantity" min="1" max="10" value="1">
+
+      5) date: Creates a single-line input for date values, with built-in validation to ensure that the entered text is a valid date in the format YYYY-MM-DD.
+               Example: <input type="date" name="date" value="2022-01-01">
+
+      6) time: Creates a single-line input for time values, with built-in validation to ensure that the entered text is a valid time in the format HH:MM.
+               Example: <input type="time" name="time" value="12:00">
+
+      7) checkbox: Creates a checkbox input for selecting one or multiple options.
+                   Example: <input type="checkbox" name="fruit" value="apple"> Apple<br><input type="checkbox" name="fruit" value="banana"> Banana
+
+      8) radio: Creates a radio button input for selecting one option from a group of options.
+                Example: <input type="radio" name="gender" value="male"> Male<br><input type="radio" name="gender" value="female"> Female
+
+      9) select: Creates a dropdown input for selecting one option from a list of options.
+                 Example:  <select name="car">
+                              <option value="volvo">Volvo</option>
+                              <option value="saab">Saab</option>
+                              <option value="opel">Opel</option>
+                              <option value="audi">Audi</option>
+                           </select>
+
+     10) submit: Creates a button input to submit the form.
+                 Example: <input type="submit" value="Submit">
+
+     11) reset: Creates a button input to reset the form.
+                Example: <input type="reset" value="Reset">
+
+     12) button: Creates a button input that can be used to trigger a function or event.
+                 Example: <button type="button" onclick="alert('Hello World!')">Click me</button>
