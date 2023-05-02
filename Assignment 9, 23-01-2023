@@ -1,0 +1,36 @@
+Q-1 What are the new things introduced in HTML5?
+Ans- HTML5 introduced several new features that made it easier for developers to create dynamic and interactive web pages. Some of them include:
+       1) Semantic elements that help structure web pages in a more meaningful way.
+       2) New form input types and attributes that simplify form handling and validation.
+       3) Built-in support for playing audio and video without the need for external plugins.
+       4) The <canvas> element that allows developers to create animations and graphics using JavaScript.
+       5) Local storage APIs that let websites store data on a user's device for offline use.
+       6) The Geolocation API that allows websites to access a user's location data.
+       7) The <picture> element that provides a simple way to serve images for different screen sizes and resolutions.
+       8) Web workers that enable JavaScript to run in the background without blocking the main thread.
+       9) Web sockets that allow for real-time communication between a client and server.
+       
+Q-2 What are semantic tags? Give a couple of examples.
+Ans- Semantic tags are HTML elements that describe the content within them, rather than just defining how they should look. They help provide meaning and structure to 
+     web pages, which can improve accessibility, search engine optimization, and overall readability. Some examples of semantic tags in HTML5 include:
+
+       1) <header> - used to define a header section of a web page.
+       2) <nav> - used to define a section of navigation links.
+       3) <article> - used to define a self-contained article or blog post.
+       4) <section> - used to define a section of related content.
+       5) <aside> - used to define content that is related but separate from the main content.
+       6) <footer> - used to define a footer section of a web page.
+       7) <main> - used to define the main content of a web page.
+       8) <figure> - used to define a self-contained content, such as an image, video, or diagram.
+       9) <figcaption> - used to define the caption or description for a <figure> element. 
+    By using semantic tags, developers can create web pages that are more accessible, easier to understand, and better optimized for search engines.
+    
+Q-3 List some uses of semantic tags.
+Ans- Semantic tags in HTML have the following uses:
+        1) They make web pages more accessible to people with disabilities by providing a more structured and meaningful content.
+        2) They help search engines understand the content and structure of a web page, which can improve its ranking in search results.
+        3) They make the HTML code more readable and easier to maintain.
+        4) They make it easier to apply styles with CSS.
+        5) They ensure consistency across different pages and websites.
+        6) They help developers to organize and structure web page content in a way that is easier to maintain and update over time.
+    Overall, the use of semantic tags can help improve the quality, usability, and accessibility of web pages, as well as their search engine rankings.
