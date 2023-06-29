@@ -1,0 +1,32 @@
+Q-1.  Why CSS selectors are used in HTML?
+Ans-  Here are points on why CSS selectors are used in HTML:
+         1) Apply styles:  CSS selectors allow styling of HTML elements.
+         2) Target specific elements:  Selectors let you focus on specific elements based on their attributes or relationships.
+         3) Maintain separation:  CSS selectors separate styling from HTML structure for better organization.
+         4) Selective styling:  You can style specific elements while leaving others unchanged.
+         5) Responsive design:  Selectors enable different styles for different devices or screen sizes.
+         6) Reusability:  Styles defined with selectors can be applied to multiple elements for efficiency.
+         7) DOM manipulation:  Selectors are used to select and manipulate elements dynamically.
+         8) Fine-grained control:  CSS selectors provide precise control over the appearance and behavior of elements.
+
+Q-2.  What are the different types of Selectors in CSS?
+Ans-  Here are five types of selectors in CSS:
+      1) Element Selector: Targets elements based on their tag name. For example, 'p' selects all '<p>' elements.
+      2) Class Selector: Targets elements based on their class attribute. It is denoted by a dot ('.') followed by the class name. For example, '.my-class' 
+                         selects all elements with 'class="my-class"'.
+      3) ID Selector: Targets elements based on their ID attribute. It is denoted by a hash ('#') followed by the ID name. For example, '#my-id' selects the 
+                      element with 'id="my-id"'.
+      4) Attribute Selector: Targets elements based on their attribute values. There are different variations of attribute selectors, such as '[attribute]' to 
+                             select elements with a specific attribute present, '[attribute="value"]' to select elements with a specific attribute value.
+      5) Descendant Selector: Targets elements that are descendants of another element. It is represented by a space (' ') between the selectors. For example, 
+                              'div p' selects all '<p>' elements that are descendants of a '<div>' element.
+
+Q-3.  How do you include external fonts and apply them?
+Ans-  Here are the steps to include and apply external fonts:
+
+          1) Find a Web Font:  Choose a font from a web font service like Google Fonts.
+          2) Get the Font URL or Embed Code:  Obtain the URL or code to include the font in your web page.
+          3) Link the Font Stylesheet:  Add a '<link>' tag in the '<head>' section of your HTML file with the font stylesheet URL.
+          4) Specify Font Family in CSS:  Use the 'font-family' property in your CSS code to apply the font to specific elements.
+          5) Apply Font to Elements:  Use the 'font-family' property to apply the font to desired HTML elements.
+          6) Test and Verify:  Open your web page in a browser to confirm that the font is displayed correctly and styles are applied.
