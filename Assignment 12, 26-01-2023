@@ -1,0 +1,54 @@
+Q-1   What i padding and margin and when do you use them?
+Ans-     1.  Padding: Padding is the space between the content (text, images, etc.) inside an element (like a box or a container) and the boundary of that element. It is like the cushioning or internal 
+                      space within the element. You use padding when you want to create space around the content inside the element, pushing the content away from the edges. It helps improve 
+                     readability and gives some breathing room to the content.
+
+        2.   Margin: Margin is the space outside an element, around its borders. It's the distance between the element and other elements around it. You use margin when you want to create space between
+                     elements, preventing them from being too close to each other. It's like the external spacing or separation between elements on a webpage.
+
+Q-2   What is display property and explain inline, block and inline-block? 
+Ans-  The "display" property is used to control how an HTML element is rendered or displayed on a webpage. It defines the type of box an element generates and how it interacts with other elements in 
+      the document flow.
+      There are several values for the "display" property, but the three main property are: 'inline', 'block', and 'inline-block'.
+
+      1.  Inline: When an element has a 'display: inline'; property, it behaves like an inline element. Inline elements do not create line breaks before or after them and only take up as much width 
+                  as necessary to fit their content. They sit next to each other horizontally and do not form new rows. Examples of inline elements include '<span>', '<a>', and '<img>'. You cannot 
+                  set a width or height for inline elements, and they ignore any top/bottom margin but accept left/right margin.
+
+     2.  Block: When an element has a 'display: block'; property, it behaves like a block-level element. Block-level elements create line breaks before and after them, taking up the full width of 
+                their parent container by default. They form new rows and stack on top of each other. Examples of block-level elements include '<div>', '<p>', and '<h1> to <h6>'. You can set a width, 
+                height, and apply margin and padding to block-level elements.
+
+    3.  Inline-block: When an element has a 'display: inline-block'; property, it combines characteristics of both inline and block-level elements. It allows you to set a width, height, and apply
+                      margin and padding, just like block-level elements, while still sitting next to each other horizontally, like inline elements. This is often used when you want elements to be 
+                      able to receive dimensions and spacing but remain in the same row. It's useful for creating custom layouts and responsive designs.
+
+Q-3   Explain minheight, minwidth, maxheight, and maxwidth in CSS?
+Ans-  1.  min-height: This property sets the minimum height that an element can have. It ensures that the element will always be at least as tall as the specified value, even if its content is 
+                      smaller. If the content is larger than the 'min-height', the element's height will adjust to fit the content. This property is helpful to prevent elements from becoming too 
+                      squished or overlapping each other when the content is limited.
+          Example:
+                    .container {
+                        min-height: 200px; /* The element will be at least 200 pixels tall */
+                     }
+    2.  min-width: Similar to 'min-height', 'min-width' sets the minimum width an element can have. It ensures that the element will be at least as wide as the specified value, but it can expand 
+                   further if its content requires more space. This property is useful for keeping elements from becoming too narrow and breaking their layout.
+         Example:
+                   .container {
+                       min-width: 300px; /* The element will be at least 300 pixels wide */
+                   }
+   3.  max-height: This property sets the maximum height an element can have. It restricts the element's height from exceeding the specified value. If the content inside the element is smaller than 
+                   the 'max-height', the element's height will be based on the content. But if the content exceeds the 'max-height', the excess content will be hidden, and the element's height will
+                   be capped at the 'max-height' value.
+        Example:
+                  .container {
+                      max-height: 500px; /* The element will not exceed 500 pixels in height */
+                  }
+  4.  max-width: Similar to 'max-height', 'max-width' sets the maximum width an element can have. It prevents the element from becoming wider than the specified value. If the content inside the 
+                 element is narrower than the 'max-width', the element's width will adjust accordingly. However, if the content is wider than the 'max-width', the excess content will be hidden, 
+                and the element's width will be limited to the 'max-width' value.
+       Example:
+                 .container {
+                    max-width: 800px; /* The element will not exceed 800 pixels in width */
+                  }
+
