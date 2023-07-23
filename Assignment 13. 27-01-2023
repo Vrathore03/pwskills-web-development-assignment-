@@ -1,0 +1,50 @@
+Q-1   Why is it called a psedo-class?
+Ans-  1.  "Pseudo" means something that is not genuine or not exactly what it appears to be.
+      2.  "Class" refers to the class attribute in HTML, which is used to apply styles to elements with a specific class name.
+
+    A pseudo-class is used to target and style elements in specific states or conditions, such as when they are being hovered over, clicked, or in a particular position within the document 
+    (e.g., first child, last child, etc.).
+
+    For example, the ':hover' pseudo-class is used to apply styles to an element when the user hovers over it with their mouse. Since the hover state is not a distinct class defined in the HTML, it 
+    is called a pseudo-class.
+
+    Here's an example of how a pseudo-class is used in CSS:
+
+      css
+           /* Styles the link when the user hovers over it */
+           a:hover {
+              color: blue;
+           }
+   In this case, the :hover pseudo-class is applied to the anchor (a) element, and when the user hovers over the link, the text color changes to blue.
+
+Q-2   What are gradients in CSS?
+Ans-  Gradients in CSS are a way to create smooth transitions between two or more colors. They allow you to apply a gradual blend of colors, creating visually appealing backgrounds or decorative 
+      effects on elements. Gradients provide a smoother and more dynamic appearance compared to solid colors.
+
+      There are two main types of gradients in CSS:
+
+          1.  Linear Gradients: Linear gradients create a transition between colors along a straight line. You can control the direction and angle of the gradient. It is defined using the 
+                                'linear-gradient()' function.
+              Example:
+                       .element {
+                             background: linear-gradient(to right, red, blue);
+                       }
+              In this example, the background of the element will have a linear gradient from red on the left to blue on the right.
+
+          2.  Radial Gradients: Radial gradients create a transition between colors radiating outward from a center point. It is defined using the 'radial-gradient()' function.
+              Example:
+                      .element {
+                             background: radial-gradient(circle, yellow, green);
+                       }
+              In this example, the background of the element will have a radial gradient from yellow at the center to green at the edges.
+
+Q-3   What are different types of transitions in CSS?
+Ans-  CSS transitions allow you to change property values smoothly over a given duration. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a 
+      period of time. There are several types of transitions in CSS, which include:
+         1.  transition-property: This property specifies which CSS properties to transition. You can use a comma-separated list of property names or the keyword "all" to indicate that every property should 
+                                  transition.
+         2.  transition-duration: This property specifies the length of time that a transition will take to complete. You can specify the duration in seconds or milliseconds.
+         3.  transition-timing-function: This property specifies the speed of the transition. You can use keywords like "linear", "ease", and "ease-in-out", or you can use a cubic-bezier function to create a 
+                                         custom timing function.
+         4.  transition-delay: This property specifies a delay (in seconds) for the transition effect. You can use this property to create a delay between the time a property is changed and the beginning of the 
+                               transition effect.
