@@ -1,0 +1,50 @@
+Q-1 What is position property in CSS and its type?
+Ans- The position property in CSS is used to set the position of an element on a web page. It determines how an element is positioned in a document and can be used to align different elements in an HTML page. 
+     There are five types of positions:
+
+        1. Static: This is the default position for HTML elements. It positions an element according to the normal flow of the page and is not affected by the top, bottom, left, and right properties.
+        2. Relative: This position is used to set the element relative to its normal position. It can be moved from its original position using the top, bottom, left, and right properties.
+        3. Absolute: This position is used to set the element relative to its nearest positioned ancestor. If there is no positioned ancestor, it is positioned relative to the initial containing block. It can be 
+                     moved from its original position using the top, bottom, left, and right properties.
+        4. Fixed: This position is used to set the element relative to the browser window. It stays in the same position even when the page is scrolled.
+        5. Sticky: This position is used to set the element to be positioned based on the user's scroll position. It acts like a combination of relative and fixed positioning.
+
+Q-2 How many types of positioning are there in CSS?
+Ans-  There are five main types of positioning that control how elements are placed on a web page:
+
+      Static Positioning:
+          1. This is the default positioning for all elements.
+          2. Elements are placed in the normal document flow, and their positions are not affected by the top, bottom, left, or right properties.
+          3. You don't need to use position: static explicitly because it's the default behavior.
+
+     Relative Positioning:
+         1. Elements with position: relative; are positioned relative to their normal position in the document flow.
+         2. You can use top, bottom, left, or right properties to shift the element from its normal position.
+         3. Other elements on the page are not affected by the shifted element.
+
+     Absolute Positioning:
+         1. Elements with position: absolute; are positioned relative to their nearest positioned ancestor (an ancestor with a position property other than static) or the initial containing block if no positioned ancestor is found.
+         2. Absolute elements are taken out of the normal document flow, and other elements may overlap them.
+         3. Useful for creating overlays, pop-up menus, and similar effects.
+
+     Fixed Positioning:
+
+        1. Elements with position: fixed; are positioned relative to the browser window, so they stay in the same place even when the user scrolls the page.
+        2. Commonly used for fixed navigation bars, headers, or footers.
+
+      Sticky Positioning:
+        1. Elements with position: sticky; are initially in the normal document flow, but they become "sticky" and stay in a specified position when the user scrolls to a certain point.
+        2. Useful for creating navigation menus that become fixed after scrolling past a certain point on the page.
+
+Q-3 What is Z-index and why to use it?
+Ans- Z-index is a CSS property that controls the vertical stacking order of elements that overlap. It determines which element appears on top of the others. Here are some points to explain what Z-index is and 
+     why to use it:
+
+        1. Z-index is used to control the order of overlapping elements on a web page.
+        2. Elements with a higher Z-index value appear above elements with lower values.
+        3. Z-index only works on positioned elements (position: absolute, position: relative, position: fixed, etc.).
+        4. Without any Z-index value, elements stack in the order that they appear in the DOM (the lowest one down at the same hierarchy level appears on top).
+        5. Z-index is useful when you want to control the order in which elements appear on a page, for example, when you want to make sure that a navigation bar appears on top of other elements.
+        6. Z-index values can be positive, negative, or zero. Positive values move an element forward in the stacking order, negative values move it backward, and zero means that the element is not positioned
+           in the stacking order.
+        7. Z-index can be used in combination with other CSS properties to create complex layouts and effects on a web page.
